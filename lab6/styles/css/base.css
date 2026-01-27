@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0 0 0 0;
+	padding: 0;
+	background-color: grey;
+}
+a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+.mCenter {
+	margin: 15px auto 100px;
+	padding: 20px;
+	width: 400px;
+	min-height: 400px;
+	background-color: #fff;
+}
+.mCenter.topMarg {
+	margin-top: 200px;
+}
+
+.btn {
+	display: block;
+	margin: 0 auto;
+	padding: 5px 0 10px;
+}
+.noStyle {
+	padding-left: 0;
+	list-style: none;
+}
+.nextLab {
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.7);
+}
+.nextLab div {
+	width: 200px;
+	margin: 15px auto 20px auto;
+}
+.nextLab a {
+	display: table-cell;
+	vertical-align: middle;				
+	background-color: #aaa;
+	border-radius: 10px;
+	padding-top: 14px;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	line-height: 12px;
+	font-size: 12px;
+	text-decoration: none; 
+	text-transform: uppercase; 
+	color: black; 
+	font-weight: bold;
+}
+.nextLab a:hover {
+	background-color: #ccc;
+	color: #555;
+}
+
+.tables table, .tables th, .tables td {
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+.tables table {
+	margin-bottom: 15px; 
+}
+.tables th, .tables td {
+	min-width: 80px;
+	padding: 4px;
+	text-align: center;
+}
