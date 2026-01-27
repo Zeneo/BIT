@@ -1,5 +1,5 @@
 #BIT Labaratoriniai darbai
-
+BIT Labaratoriniai darbai
 Labaratoriniams darbams pradėti reikia:
 
 Būti susidiegus GIT'ą
