@@ -2,7 +2,7 @@
 BIT Labaratoriniai darbai
 Labaratoriniams darbams pradėti reikia:
 
-BIT Labaratoriniai man neatika
+BIT Labaratoriniai man patika
 
 Būti susidiegus GIT'ą
 Turėti GitHub prieigą (kurią jeigu čia skaitot jeu turit :D).
