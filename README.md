@@ -2,6 +2,8 @@
 BIT Labaratoriniai darbai
 Labaratoriniams darbams pradėti reikia:
 
+BIT Labaratoriniai man patika
+
 Būti susidiegus GIT'ą
 Turėti GitHub prieigą (kurią jeigu čia skaitot jeu turit :D).
 Būti susitvarkius SSH raktus naudojamame kompiuteryje (jeigu nesate žiūrėkite į skiltį "SSH raktų įdiegimas")
