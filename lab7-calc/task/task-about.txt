@@ -1,0 +1,5 @@
+﻿Labaratorinis 7 yra padaryti kalkuliatorių, kuris būtų padarytas su atitinkamais reikalavimais:
+1. Visi skaičiavimai turėtų būti atlikti su Php
+2. Mygtukus spaudžiant kalkuliatoriuje puslapis turėtų nepersikrauti
+3. Veiksmai, kuriuos turėtų atlikti kalkuliatorius yra: "+", "-*, "/", "*", "=", "CE" bei skaičių ivedimas.
+4. Paskutiniai penki rezultatai turi b8ti atvaizduojami
