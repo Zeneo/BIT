@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX Kalkuliatorius</title>
+    <link rel="stylesheet" href="styles/scss/main.css">
+</head>
+
+<body>
+
+    <div class="calc">
+        <input type="text" id="display" readonly>
+
+        <div class="buttons">
+            <button onclick="press('7')">7</button>
+            <button onclick="press('8')">8</button>
+            <button onclick="press('9')">9</button>
+            <button onclick="press('/')">/</button>
+
+            <button onclick="press('4')">4</button>
+            <button onclick="press('5')">5</button>
+            <button onclick="press('6')">6</button>
+            <button onclick="press('*')">*</button>
+
+            <button onclick="press('1')">1</button>
+            <button onclick="press('2')">2</button>
+            <button onclick="press('3')">3</button>
+            <button onclick="press('-')">-</button>
+
+            <button onclick="press('0')">0</button>
+            <button onclick="clearAll()">CE</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="press('+')">+</button>
+        </div>
+    </div>
+
+    <h3>Paskutiniai 5 rezultatai</h3>
+    <ul id="history"></ul>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
