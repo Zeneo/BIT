@@ -9,14 +9,14 @@
 <br/>
 <span style="color:#eee; font-weight: bold;">Jeigu žingsniai sutvarkyti ir jau paruošta, reikia įgyvendinti šiuos žingsnius:</span>
 
-Nueiti į savo localhost direktoriją ar kur jūs norėsite talpinti failus
-Joje įėjus spausti dešnį pėlės klavišą ir pasirinkti "git bash" (arba per terminalą nueiti iki tos direktorijos)
-Tada terminale įvesti: _git clone git@github.com:Zeneo/BIT.git_
-Parsiklonavus įeiti į BIT direktoriją su komanda "cd BIT"
-Joje paleisti komandą ***git branch {vardas}_{pavarde}*** (TIK LOTYNIŠKOS RAIDĖS BE "ĄČĘĖĮŠŲŪŽ" AR PAN.!!!)
-Įvykdykite komandą ***git checkout {vardas}_{pavarde}"***
-Įvykdykite komandą ***git commit -a -m 'Mano pirmas commit'***
-Įvykdykite komandą ***git push --set-upstream origin {vardas}_{pavarde}***
+Nueiti į savo localhost direktoriją ar kur jūs norėsite talpinti failus<br/>
+Joje įėjus spausti dešnį pėlės klavišą ir pasirinkti "git bash" (arba per terminalą nueiti iki tos direktorijos)<br/>
+Tada terminale įvesti: _git clone git@github.com:Zeneo/BIT.git_<br/>
+Parsiklonavus įeiti į BIT direktoriją su komanda "cd BIT"<br/>
+Joje paleisti komandą ***git branch {vardas}_{pavarde}*** (TIK LOTYNIŠKOS RAIDĖS BE "ĄČĘĖĮŠŲŪŽ" AR PAN.!!!)<br/>
+Įvykdykite komandą ***git checkout {vardas}_{pavarde}"***<br/>
+Įvykdykite komandą ***git commit -a -m 'Mano pirmas commit'***<br/>
+Įvykdykite komandą ***git push --set-upstream origin {vardas}_{pavarde}***<br/>
 
 <br/>
 
