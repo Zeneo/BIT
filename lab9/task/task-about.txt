@@ -1,0 +1,8 @@
+Užduotis Lab9:
+(kievieną dalį atvaizduoti)
+1. Sukurti automatiškai generuojamą masyvą su ne mažiau nei 100 elementų, ir ne daugiau nei 150.
+2. Į to masyvo kiekvieną elementą įrašyti atsitiktinius skaičius
+3. Išvesti visų masivo elementų sumą
+
+
+
