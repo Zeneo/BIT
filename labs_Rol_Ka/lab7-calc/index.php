@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>AJAX Kalkuliatorius</title>
     <link rel="stylesheet" href="styles/scss/main.css">
+    <script src="js/main.js" defer></script>
 </head>
 
 <body>
@@ -38,7 +39,7 @@
     <h3>Paskutiniai 5 rezultatai</h3>
     <ul id="history"></ul>
 
-    <script src="js/main.js"></script>
+
 </body>
 
 </html>
