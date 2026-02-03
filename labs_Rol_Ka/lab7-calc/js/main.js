@@ -53,3 +53,26 @@ function calculate() { // Apskaičiavimo funkcija
             });
         });
 }
+
+
+// Sveikasis skaičius (number)
+let amzius = 20;
+
+// Skaičius su kableliu (number)
+let kaina = 19.99;
+
+// Tekstas (string)
+let vardas = "Jonas";
+
+// Loginis (boolean)
+let arPilnametis = true;
+
+// Simbolių rinkinys (string, JS neturi atskiro char tipo)
+let raide = "A";
+
+console.log(amzius, kaina, vardas, arPilnametis, raide);
+
+console.log(amzius, typeof amzius);
+console.log(kaina, typeof kaina);
+console.log(vardas, typeof vardas);
+console.log(arPilnametis, typeof arPilnametis);
