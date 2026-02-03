@@ -18,6 +18,7 @@ class Calculator {
 
             Calc.cnt = $(cnt);             // Main Calculator container
             Calc.input = Calc.cnt.find('.js-val');    // Screen container
+            Calc.memory = false;
             Calc.value = Calc.cnt.find('.js-val').val();        // Memorizing value
             if(Calc.value === '') {
                 Calc.value= 0;
@@ -35,34 +36,26 @@ class Calculator {
     init = function() {
         console.log(Calc.data);
         Calc.data.cnt.find('.js-numBtn').on('click', function() {
-            if(Calc.data.value == 0) {
+            if(Calc.data.value == 0 || Calc.data.input.attr('memorized') == 1) {
                 Calc.data.value = $(this).text();
+                Calc.data.input.attr('memorized', 0);
             } else {
-                if (Number.isInteger(Calc.data.value) && Calc.data.input.attr('separator') == 1) {
-                    console.log('Separator');
+                const valNr = Number(Calc.data.value);
+                if (Number.isInteger(valNr) && Calc.data.input.attr('separator') == 1) {
                     Calc.data.value = Calc.data.value + '.' + $(this).text();
                     Calc.data.input.attr('separator', 0);
                 } else if(Calc.data.input.attr('separator') == 0 || Calc.data.input.attr('separator') == -1) {
                     Calc.data.value = Calc.data.value + '' + $(this).text();
                 }
             }
-            console.log('Tekstas:');
-            console.log($(this).text());
-            console.log(Calc.data.value);
             Calc.data.input.val(Calc.data.value);
         });
         Calc.data.cnt.find('.js-actionBtn').on('click', function() {
             Calc.data.action = $(this).text();
-            console.log('// ACTION: '+(Calc.data.action));
-            console.log('// VAL: '+Calc.data.value);
             switch(Calc.data.action) {
                 case '.':
-                    console.log('...........................................');
-                    alert(Calc.data.value);
-                    console.log(Calc.data.value.);
-                    console.log(Calc.data.input.attr('separator') == -1);
                     const valNr = Number(Calc.data.value);
-                    if(Number.isInteger(valNr) && valNr =
+                    if(Number.isInteger(valNr) && valNr == Calc.data.value
                         && Calc.data.input.attr('separator') == -1) {
                         Calc.data.input.attr('separator', 1);
                         console.log('Kablelis');
@@ -71,6 +64,10 @@ class Calculator {
                     // code block
                 case '+/-':
                     Calc.data.value = Calc.data.value*(-1);
+                    break;
+                case '*':
+                    Calc.data.memory = Calc.data.value;
+                    Calc.data.input.attr('memorized', 1);
                     break;
                 default:
             }

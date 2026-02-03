@@ -10,7 +10,7 @@
 <div class="mainCnt">
     <div class="mainCntInner">
         <div class="btns">
-
+            <?php require_once 'func.php';?>
         </div>
     </div>
 
