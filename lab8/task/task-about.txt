@@ -3,3 +3,11 @@ Trumpas testas:
 
 2. Kam jie skirti ir kuo skiriasi?
 
+3. Sukurkite PHP failą, kuriame būtų po vieną kintamajį kiekvieno tipo ir jį atvaizduotu taip per "var_dump()":
+string(6) "Vardas"
+int(59)
+float(59.8)
+bool(true)
+array(2) { [0]=> int(59) [1]=> float(59.8) }
+object(User)#1 (2) { ["name"]=> string(7) "Paulius" ["age"]=> int(38) }
+NULL 
