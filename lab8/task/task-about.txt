@@ -1,4 +1,4 @@
-Trumpas testas:
+Užduotis Lab8:
 1. Kokius kintamuosiu žinote?
 
 2. Kam jie skirti ir kuo skiriasi?
