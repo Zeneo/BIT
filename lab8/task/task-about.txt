@@ -1,0 +1,12 @@
+Trumpas testas:
+1. Kokius kintamuosiu žinote?
+string (text values)
+int (whole numbers)
+float (decimal numbers)
+bool (true or false)
+array (multiple values)
+object (stores data as objects)
+null (empty variable)
+
+2. Kam jie skirti ir kuo skiriasi?
+

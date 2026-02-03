@@ -9,4 +9,4 @@ nepersikrauti
 
 
 Namie padaryt reikės: kėlimas laipsniu, Šaknies 
-traukimas, apskritimo ir stačiakampio perimetro skaičiavimas
+traukimas (kvadratinę), apskritimo ir stačiakampio perimetro skaičiavimas
