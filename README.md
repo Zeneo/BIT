@@ -2,9 +2,6 @@
 BIT Labaratoriniai darbai
 Labaratoriniams darbams pradėti reikia:
 
-<<<<<<< HEAD
-BIT Labaratoriniai man patika
-
 Būti susidiegus GIT'ą
 Turėti GitHub prieigą (kurią jeigu čia skaitot jeu turit :D).
 Būti susitvarkius SSH raktus naudojamame kompiuteryje (jeigu nesate žiūrėkite į skiltį "SSH raktų įdiegimas")
@@ -40,7 +37,3 @@ Jūsų brancho pavadinimas - {jūsų vardas}_{jūsų pavardė}
 GIT repozitorija bus viena, prisidės tik nauji katalogai su naujais labaratoriniais. 
 
    
-
-
-
->>>>>>> 63653bad268158560716ed2510a866b5f1cb1cfd
