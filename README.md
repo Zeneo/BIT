@@ -32,7 +32,7 @@ Jūsų brancho pavadinimas - {jūsų vardas}_{jūsų pavardė} GIT repozitorija 
 8) Įvykdykite komandą "git push --set-upstream origin {vardas}_{pavarde}"
 
 
-### Jūsų brancho pavadinimas - {jūsų vardas}_{jūsų pavardė}
+#### Jūsų brancho pavadinimas - {jūsų vardas}_{jūsų pavardė}
 GIT repozitorija bus viena, prisidės tik nauji katalogai su naujais labaratoriniais. 
 
    
