@@ -23,4 +23,8 @@ Joje paleisti komandą ***git branch {vardas}_{pavarde}*** (TIK LOTYNIŠKOS RAID
 #### Jūsų brancho pavadinimas - ***{jūsų vardas}_{jūsų pavardė}*** &nbsp;&nbsp;&nbsp;(Pvz.: Petras_Petravicius)    
 #### GIT repozitorija bus viena visiems labaratoriniams, prisidės tik nauji labaratorinių katalogai su naujais labaratoriniais.
 <br/>
+
 <span style="color:#c33;font-weight: bold;">(Riestinių skliaustelių nereik beveik visūr kur juos rašau. Vietoj jų turi būti atitinkama reikšmė jeigu ką ;) )</span>
+
+
+
