@@ -1,29 +1,26 @@
-<?php
-echo "<pre>";
+<!DOCTYPE html>
+<html lang="en">
 
-$string = "Vardas";
-$int = 59;
-$float = 59.8;
-$bool = true;
-$array = [59, 59.8];
-class User
-{
-    public $name;
-    public $age;
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkuliatorius</title>
+    <link rel="stylesheet" href="../lab7-calc/styles/css/main.css" />
+</head>
 
-    public function __construct($name, $age)
-    {
-        $this->name = $name;
-        $this->age = $age;
-    }
-}
-$object = new User("Paulius", 38);
-$null = null;
+<body>
+    <div class="mainCnt">
+        <div class="mainCntInner">
+            <div class="btns">
+                <?php require_once 'func.php'; ?>
+            </div>
+        </div>
 
-var_dump($string);
-var_dump($int);
-var_dump($float);
-var_dump($bool);
-var_dump($array);
-var_dump($object);
-var_dump($null);
+    </div>
+    <style>
+    </style>
+    <script type="text/javascript" src="js/jquery/jquery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

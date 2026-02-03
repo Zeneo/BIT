@@ -1,0 +1,94 @@
+/*-------/lab7/styles/scss/main.scss--------*/
+.calcCnt {
+	position: relative;
+	margin: 0 auto;
+	padding: 8px;
+	min-width: 300px;
+	max-width: 500px;
+	width: 100%;
+	min-height: 200px;
+}
+.calcMain {
+	border: 2px SOLID #333;
+	width: 100%;
+	min-height: 200px;
+	height: 100%;
+	background: #999;
+	.screen {
+		margin: 15px auto 7px;
+		height: 80px;
+		width: 80%;
+		background-color: #0ff;
+		input {
+			margin: 0;
+			padding: 10px;
+			width: calc(100% - 22px);
+			height: 58px;
+			background-color: transparent;
+			line-height: 58px;
+			font-size: 30px;
+			text-align: right;
+			overflow: hidden;
+			&::-webkit-outer-spin-button,
+			&::-webkit-inner-spin-button {
+				-webkit-appearance: none;
+				margin: 0;
+			}
+
+			/* Firefox */
+			&[type=number] {
+				-moz-appearance: textfield;
+			}
+		}
+	}
+	.btns {
+		padding: 10px;
+	}
+	.btn {
+		cursor: pointer;
+	}
+}
+.actionSection1 {
+	width: 100%;
+	.btn {
+		float: right;
+		width: 33%;
+		&:last-child{
+			width: 34%;
+		}
+	}
+}
+.numberSection {
+	width: 75%;
+	float: left;
+	.btn {
+		width: 33%;
+		&:nth-child(2),&:nth-child(5),&:nth-child(8),&:nth-child(11) {
+			width: 34%;
+		}
+	}
+
+}
+.btn {
+	box-sizing: border-box;
+	border: 1px SOLID #666;
+	padding: 3px 5px;
+	height: 26px;
+	background-color: #f9f9f9;
+	line-height: 20px;
+	float: left;
+	text-align: center;
+}
+.actionSection2 {
+	width: 25%;
+	float:  right;
+	.btn {
+		width: 100%;
+		float:  left;
+	}
+}
+.clear {
+	clear: both;
+}
+
+
