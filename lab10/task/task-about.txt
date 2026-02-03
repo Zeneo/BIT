@@ -1,0 +1,8 @@
+Užduotis Lab9:
+(kievieną dalį atvaizduoti)
+1. Sukurti automatiškai generuojamą masyvą su ne mažiau negu 50 elementų, ne daugiau nei 100.
+2. Į to masyvo kiekvieną elementą įrašyti atsitiktinę
+3. Iš tų raidžių sudėlioti atsitiktinius jumginius
+
+
+
