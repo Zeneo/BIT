@@ -1,26 +1,24 @@
 ﻿body {
-	background: #6688cc;
+	background: #eef5ff;
 }
 .slider {
 	margin: 0 auto;
 	height: 300px;
 	width: 100%;
-	max-width: 1200px;			// Apibrėžia maksimalų imanomą plotį
-	background-color: #fff;
+	max-width: 1200px;			/* Apibrėžia maksimalų imanomą plotį */
 }
 .sliderCnt {
 	position: relative;
 	margin: 0;
 	padding: 0;
 	height: 100%;
-	overflow: hidden;			// Paslepia turinį, kuris yra už konteinerio ribų
-}
-.sliderCnt li{
-	padding: 0;
-	height: 100%;
+	overflow: hidden;			/* Paslepia turinį, kuris yra už konteinerio ribų */
 }
 .sliderCnt li {
-	display: none;				// Konteineris padaromas nebeegzistuojančiu
+	padding: 0;
+	height: 100%;
+	display: none;				/* Konteineris padaromas nebeegzistuojančiu */
+	mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
 }
 .sliderCnt li:first-child {
 	display: block;
@@ -32,12 +30,14 @@
 }
 .sliderCnt li>a>img {
 	position: absolute;
+	margin-top: -25%;
 	width: 100%;
 	object-fit: contain;
 }
 .sliderCnt h2 {
 	position: relative;
 	margin: 0;
+	padding: 100px 100px 0;
 	height: 30px;
 	line-height: 30px;
 	font-size: 20px;
@@ -51,16 +51,27 @@
 }
 
 .mainMenuCnt {
+	position: relative;
 	width: 100%;
 	height: 50px;
-	background-color: #aacc33;
-	background-color: rgb('80', '80','80');
+	background-color: #ddff66;
+}
+.mainMenuCnt2 {
+	margin: 0 auto;
+	max-width: 1024px;
+	min-width: 320px;
+	height: 100%;
 }
 .mainMenuCnt ul {
 	margin: 0;
 	padding: 0;
+	width: 100%;
+	height: 100%;
 }
 .mainMenuCnt ul li {
 	display: inline-block;
-	padding: 10px 15px;
+	padding: 15px 15px;
+	line-height: 20px;
+	font-size: 20px;
+	font-weight: bolder;
 }
