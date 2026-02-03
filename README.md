@@ -1,4 +1,4 @@
-##BIT Labaratoriniai darbai
+## BIT Labaratoriniai darbai
 
 BIT Labaratoriniai darbai
 Labaratoriniams darbams pradėti reikia:
